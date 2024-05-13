@@ -1,8 +1,7 @@
 
 export default function Projects() {
   return (
-    <div>
-      <h1>Projects</h1>
+    <div class="component">
       <p>routes/users/projects.tsx</p>
     </div>
   );

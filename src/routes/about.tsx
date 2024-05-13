@@ -2,9 +2,8 @@ import { Title } from "@solidjs/meta";
 
 export default function Home() {
   return (
-    <main>
-      <Title>About</Title>
-      <h1>About</h1>
-    </main>
+    <div class="component">
+      <p>route/about.tsx</p>
+    </div>
   );
 }

@@ -1,8 +1,7 @@
 
 export default function UsersWithID() {
   return (
-    <div>
-      <h1>UsersWithID</h1>
+    <div class="component">
       <p>routes/users/[id].tsx</p>
     </div>
   );

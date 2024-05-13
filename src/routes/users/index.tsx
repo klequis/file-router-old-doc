@@ -1,8 +1,7 @@
 
 export default function UsersIndex() {
   return (
-    <div>
-      <h1>UsersIndex</h1>
+    <div class="component">
       <p>routes/users/index.tsx</p>
     </div>
   );
