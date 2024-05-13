@@ -2,7 +2,7 @@
 export default function UsersWithID() {
   return (
     <div class="component">
-      <p>routes/users/[id].tsx</p>
+      <p class="file-name">routes/users/[id].tsx</p>
     </div>
   );
 }

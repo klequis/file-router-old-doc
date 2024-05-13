@@ -8,14 +8,14 @@ export default function App() {
   return (
     <Router
       root={(props) => (
-        <div class="component">
-          <p>app.tsx</p>
-          <a href="/">/index.tsx</a>
-          <a href="/about">/about.tsx</a>
-          <a href="/users">/users.tsx</a>
-          <a href="/users/[id].tsx">/users.tsx</a>
-          <a href="/users/index.tsx">/users/index.tsx</a>
-          <a href="/users/projects">/users/projects.tsx</a>
+        <div class="component background-red">
+          <p class="file-name">app.tsx</p>
+          <a class="button-1" href="/">/</a>
+          <a class="button-1" href="/about">/about.tsx</a>
+          <a class="button-1" href="/users">/users.tsx</a>
+          <a class="button-1" href="/users/1">/users/1.tsx</a>
+          <a class="button-1" href="/users">/users/index.tsx</a>
+          <a class="button-1" href="/users/projects">/users/projects.tsx</a>
           <Suspense>{props.children}</Suspense>
         </div>
       )}

@@ -2,7 +2,7 @@
 export default function UsersIndex() {
   return (
     <div class="component">
-      <p>routes/users/index.tsx</p>
+      <p class="file-name">routes/users/index.tsx</p>
     </div>
   );
 }
