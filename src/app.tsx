@@ -45,9 +45,7 @@ const MakeRowGroup = (routes,idx) => {
 
 function PrintRoutes() {
   const routes = FileRoutes();
-  console.log("routes", routes);
   const routeObjs = routesToObjs(routes);
-  console.log("routeObjs", routeObjs);
 
   return (
     <table>
@@ -71,16 +69,12 @@ export default function App() {
           <a class="button-1" href="/">
             (0) /
           </a>
-          <a class="button-1" href="/users">
-            (1) /users
+          <a class="button-1" href="/about-us">
+            (1) /about-us
           </a>
-          <a class="button-1" href="/users/projects">
-            (2) /users/projects
+          <a class="button-1" href="/contact-us">
+            (2) /contact-us
           </a>
-          <a class="button-1" href="/users/1">
-            (3) /users/1
-          </a>
-
           <Suspense>{props.children}</Suspense>
           <PrintRoutes />
         </div>
