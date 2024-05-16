@@ -69,11 +69,14 @@ export default function App() {
           <a class="button-1" href="/">
             (0) /
           </a>
-          <a class="button-1" href="/about-us">
-            (1) /about-us
+          <a class="button-1" href="/users">
+            (1) /users
           </a>
-          <a class="button-1" href="/contact-us">
-            (2) /contact-us
+          <a class="button-1" href="/users/projects">
+            (2) /users/projects
+          </a>
+          <a class="button-1" href="/users/1">
+            (2) /users/1
           </a>
           <Suspense>{props.children}</Suspense>
           <PrintRoutes />
