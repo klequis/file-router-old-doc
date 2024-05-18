@@ -48,9 +48,15 @@ p {
   color: white;
 }
 
+.my-background {
+  margin: 10px 0 20px 0;
+  font-weight: 600;
+}
+
 .component {
-  border: 2px solid black;
+  border: 2px solid #8913ee;
   margin: 1rem;
+  padding: 4px;
 }
 
 .file-name {
