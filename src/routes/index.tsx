@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <main class="component">
-      <p>routes/index.tsx</p>
-    </main>
+    <div class="component">
+      <p class="file-name">routes/index.tsx</p>
+    </div>
   );
 }
