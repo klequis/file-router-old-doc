@@ -9,8 +9,8 @@ export default function App() {
       root={(props) => (
         <div class="component">
           <p>app.tsx</p>
-          <a href="/">/index.tsx</a>
-          <a href="/about">/about.tsx</a>
+          <a href="/">/index</a>
+          <a href="/about">/about</a>
           <Suspense>{props.children}</Suspense>
         </div>
       )}
