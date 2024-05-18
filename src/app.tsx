@@ -1,4 +1,3 @@
-import { MetaProvider } from "@solidjs/meta";
 import { Router } from "@solidjs/router";
 import { FileRoutes } from "@solidjs/start/router";
 import { Suspense } from "solid-js";
@@ -12,10 +11,6 @@ export default function App() {
           <p>app.tsx</p>
           <a href="/">/index.tsx</a>
           <a href="/about">/about.tsx</a>
-          <a href="/users">/users.tsx</a>
-          <a href="/users/[id].tsx">/users.tsx</a>
-          <a href="/users/index.tsx">/users/index.tsx</a>
-          <a href="/users/projects">/users/projects.tsx</a>
           <Suspense>{props.children}</Suspense>
         </div>
       )}
