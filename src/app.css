@@ -42,6 +42,11 @@ p {
   margin: 1rem;
 }
 
+.background-green {
+  background-color: #2e7d32;
+  color: white;
+}
+
 .background-red {
   background-color: #e87575;
   color: white;
@@ -49,11 +54,6 @@ p {
 
 .background-blue {
   background-color: #335d92;
-  color: white;
-}
-
-.background-green {
-  background-color: #2e7d32;
   color: white;
 }
 
