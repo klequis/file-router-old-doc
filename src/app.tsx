@@ -7,10 +7,10 @@ export default function App() {
   return (
     <Router
       root={(props) => (
-        <div class="component">
-          <p>app.tsx</p>
-          <a href="/">/index</a>
-          <a href="/about">/about</a>
+        <div class="component background-purple">
+          <p class="file-name">app.tsx</p>
+          <a class="button-1" href="/">/index</a>
+          <a class="button-1" href="/about">/about</a>
           <Suspense>{props.children}</Suspense>
         </div>
       )}

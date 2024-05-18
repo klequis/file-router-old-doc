@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <div class="component">
-      <p>route/about.tsx</p>
+    <div class="component background-purple">
+      <p class="file-name">route/about.tsx</p>
     </div>
   );
 }
